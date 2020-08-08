@@ -1,0 +1,45 @@
+<div class="container ">
+
+    <div class="row">
+        <div class="col-lg-12">
+            {{#if success_msg}}
+                <div class="alert alert-success">
+                    {{success_msg}}
+                    <a href="#close" class="icon-remove"></a>
+                </div>
+            {{/if}}
+            {{#if error_msg}}
+                <div class="alert alert-danger">
+                    {{error_msg}}
+                    <a href="#close" class="icon-remove"></a>
+                </div>
+            {{/if}}
+            {{#if error}}
+                <div class="alert alert-danger">
+                    {{error}}
+                    <a href="#close" class="icon-remove"></a>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+    
+
+    <div class="col-md-12 my-5">
+        <form action="/users/login" method="POST">
+            <div class="login-box mx-auto">
+                <h2 class="topnews my-3 mx-2 text-center">LOGIN</h2>
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Username" name="username" id="">
+                </div>
+                <div class="textbox">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" placeholder="Password" name="password" id="">
+                </div>
+                <button type="submit" class="btnn btn btn-default">Login</button>
+                {{!-- <input class="btnn" type="button" value="Sign in"> --}}
+            </div>
+        </form>
+    </div>
+    
+</div>

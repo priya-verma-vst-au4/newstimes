@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="detail">
+        <h3 class="">{{newsarticle.title}}</h3>
+        <small>Auther: {{newsarticle.author}},&nbsp;&nbsp;Source: {{newsarticle.source.name}},&nbsp;&nbsp;PublishedAt: {{newsarticle.publishedAt}}</small>
+        <div class="detail-content mt-2">
+            <img src={{newsarticle.urlToImage}} width="600" class="mr-3 img-fluid rounded img-thumbnail" alt="No image from source">                
+            <h5 class="my-2">{{newsarticle.description}}</h5>
+            <p>{{fcontent}} &nbsp;<a href="{{newsarticle.url}}" target="_blank"><button class="btn btn-outline-danger btn-sm">Read more</button></a></p>            
+        </div>
+    </div>
+</div>

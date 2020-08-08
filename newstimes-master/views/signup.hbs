@@ -1,0 +1,30 @@
+<div class="container ">
+{{#if errors}}
+    <div class="alert alert-danger" role="alert">Error:- {{errors.msg}}</div>
+{{/if}}
+
+    <div class="col-md-12 my-5">
+        <form method="post" action="/users/register">
+            <div class="login-box mx-auto">
+                <h2 class="topnews my-3 mx-2 text-center">SIGNUP</h2>    
+                <div class="textbox">
+                    <input type="text" placeholder="Name" name="name" id="name">               
+                </div>
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" id="Username">
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email-Id" name="email" id="email">
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" id="password">
+                </div>            
+                <div class="textbox">
+                    <input type="password" placeholder="Confirm Password" name="password2" id="password2">
+                </div>
+                <button type="submit" class="btnn btn btn-default">Sign up</button>
+                {{!-- <input class="btnn" type="button" value="Sign up"> --}}
+            </div>        
+        </form>
+    </div>
+</div>

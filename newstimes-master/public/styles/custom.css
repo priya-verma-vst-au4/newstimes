@@ -1,0 +1,309 @@
+.top-head {
+    background-color: #C2355D;
+    border-bottom: 1px solid #333333;
+    color:#fff;
+}
+.date {
+    margin-bottom: 0;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.lsbutton {
+    background-color: #FFF;
+    color: #C2355D;
+    font-weight: 500;
+}
+
+ul.hsocial{
+    flex-direction: row;
+}
+
+.hsocial li {
+    padding: .20rem 1rem;
+}
+
+.hsocial li a.fa-facebook {
+    color: #3B5998;
+}
+
+.hsocial li a.fa-pinterest {
+    color: #E60023;
+}
+
+.hsocial li a.fa-youtube {
+    color: #FF0000;
+}
+
+.menu-container .navbar {
+    background-color: #C2355D;
+}
+
+.menu-container .navbar .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 600;   
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.menu-container .navbar .nav-item:hover .nav-link {
+    font-size: 18px;
+    font-weight: 600;   
+    color: #C2355D;
+    margin-right: 10px;
+}
+
+.menu-container .navbar .nav-item:hover {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.slider1 img {
+    height: 427px;
+}
+
+.slider1 .carousel-caption {
+    background-color: rgba(194, 53, 93, 0.7);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+    padding: 2% 2% 8% 2%;
+}
+
+.slider1 .carousel-caption a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.topnews {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #C2355D;
+}
+
+.topnews-underline {
+    padding: 2% 9%;
+    background-color: #C2355D;
+}
+
+/* .slider1-aside {
+    background-color: #eee;
+    height: 385px;
+} */
+
+.slider1-aside .list-group-item h5 {
+    font-size: 1.1rem;
+}
+
+.slider1-aside .list-group-item {
+    background-color: #eee;
+}
+
+.slider1-aside .list-group-item:hover {
+    background-color: #fff;
+}
+
+.bl {
+    border-left: 1px solid rgba(36, 41, 46, 0.7);
+}
+
+.bg-fgray {
+    background-color: #DFDFDF;
+}
+
+.s2media a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.s2media .media img {
+    width:100px;
+    height:79px;
+}
+
+.s2media ul li.media {
+    border-bottom: 1px dotted rgba(36, 41, 46, 0.7);
+}
+
+.s2card .card a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.s2card .card img {    
+    height:150px;
+}
+
+.bmedia a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.bmedia .media img {
+    width:100px;
+    height:81px;
+    border-radius: calc(.25rem - 1px);
+}
+
+.bmedia ul li.media {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding:1px;
+}
+
+footer {
+    background-color: #ACACAC;
+    padding: 10px 0;
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    overflow: hidden;
+}
+
+.flink {
+    list-style-type: disc;
+}
+
+.flink li {
+    margin-bottom: 7px;
+}
+
+.flink li a {
+    text-decoration: none;
+    color: #C2355D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.detail {
+    background-color: #DFDFDF;
+    padding: 20px; 
+}
+
+/* CSS for login page  */
+
+.login-box {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid #C2355D;
+    width: 280px;
+    color: rgb(12, 11, 11);
+}
+
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #C2355D;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #C2355D;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline:none;
+    background: none;
+    color: rgb(22, 21, 21);
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btnn{
+    width: 100%;
+    background: none;
+    border: 2px solid #C2355D;
+    color: rgb(168, 58, 126);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.blink a {
+    text-decoration: none;
+    color: #C2355D;
+}
+
+.card-body a {    
+    text-decoration: none;
+    color: #C2355D;
+}
+
+.category-border {
+    border: 1px solid #C2355D;
+}
+
+/* --- CSS For Aboutus page ---- */
+
+.team-section{
+    overflow: hidden;
+    text-align: center;    
+    padding: 60px;
+}
+
+.borderr{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;   
+    margin-bottom: 40px;
+    border: 1px solid #C2355D;
+}
+.ps{ 
+    margin: 0 5%;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 206px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 60%;
+    border: solid #C2355D;
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover > img{
+    filter: none;
+
+}
+
+.ps h3 {
+    color: #C2355D;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.content{
+    text-align: justify;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-style: italic;
+    color: #C2355D;
+}
+.jumbotron{
+    color: #C2355D;
+    font-style: italic;
+}
